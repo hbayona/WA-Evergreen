@@ -1,0 +1,104 @@
+body {
+     background: linear-gradient(to right, white,#D3D3D3); 
+     color: #8DC740;
+     font-family: 'Segoe UI', sans-serif;
+  }
+  .hero {
+    padding: 100px 20px; 
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .services, .testimonials, .pricing, .faq, .contact {
+    padding: 60px 20px;
+  }
+  .services {
+    background: white;
+    color: #333;
+  }
+  .services .card, .pricing .card {
+    border: none;
+    transition: transform 0.3s ease;
+  }
+  .services .card:hover, .pricing .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+  .testimonials {
+    background: #f8f9fa;
+    color: #333;
+  }
+  .testimonials .quote {
+    font-style: italic;
+  }
+  .pricing {
+    background: #f8f9fa;
+    color: #333;
+  }
+  .faq {
+    background: white;
+    color: #333;
+  }
+  .faq h4 {
+    cursor: pointer;
+  }
+  .contact {
+    background: linear-gradient(to right, white,#D3D3D3); 
+    color: #8DC740;
+  }
+    .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+  }
+
+  .txtheader{
+    color:black;
+    font-weight: 400;
+  }
+
+  .cardVM{
+    border: 1px solid #8DC740 !important ;
+  }
+
+  .cardVM:hover{
+    background: #8DC740;
+    color: white;
+    border: 1px solid white !important ;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+
+  .btnVM{
+    background: white;
+    color:#8DC740;
+    border: none !important ;
+    font-weight: 500;
+  }
+
+  .btnVM:hover{
+    background: #8DC740;
+    color: white;
+  }
+  
+  .btnVM:focus,
+  .btnVM:active {
+    background-color: #8DC740 !important;
+    border: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    }
+
